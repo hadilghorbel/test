@@ -1,4 +1,4 @@
-package com.example.demo.RequestApiForm;
+package com.example.demo.request;
 
 public class MessageResponse {
     private String Message;

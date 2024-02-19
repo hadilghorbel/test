@@ -1,5 +1,6 @@
-package tn.sofrecom.talentanalytics.model.enums;
+package com.example.demo.model.enums;
 
 public enum Status {
-    ACTIVE,INACTIVE,TERMINATED_VOLUNTARY,TERMINATED_INVOLUNTARY;
+    BOOKED,
+    AVAILABLE
 }

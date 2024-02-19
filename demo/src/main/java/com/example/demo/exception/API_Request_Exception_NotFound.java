@@ -1,4 +1,4 @@
-package tn.sofrecom.talentanalytics.exception;
+package com.example.demo.exception;
 
 public class API_Request_Exception_NotFound extends RuntimeException{
     /**

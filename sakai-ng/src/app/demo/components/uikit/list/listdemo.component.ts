@@ -3,13 +3,15 @@ import { SelectItem } from 'primeng/api';
 import { DataView } from 'primeng/dataview';
 import { Product } from 'src/app/demo/api/product';
 import { ProductService } from 'src/app/demo/service/product.service';
+import {HotelService} from "../../../service/custom-service/hotel.service";
+import {Hotel, Status} from "../models/hotel.model";
 
 @Component({
     templateUrl: './listdemo.component.html'
 })
 export class ListDemoComponent implements OnInit {
 
-    products: Product[] = [];
+    hotels: Hotel[] = [];
 
     sortOptions: SelectItem[] = [];
 
@@ -23,10 +25,12 @@ export class ListDemoComponent implements OnInit {
 
     orderCities: any[] = [];
 
-    constructor(private productService: ProductService) { }
+    constructor(private productService: ProductService, private hotelService: HotelService) { }
 
     ngOnInit() {
-        this.productService.getProducts().then(data => this.products = data);
+        this.hotelService.findAll().subscribe(value => {
+            this.hotels = value;
+        })
 
         this.sourceCities = [
             { name: 'San Francisco', code: 'SF' },
@@ -69,5 +73,6 @@ export class ListDemoComponent implements OnInit {
     onFilter(dv: DataView, event: Event) {
         dv.filter((event.target as HTMLInputElement).value);
     }
-    
+
+    protected readonly Status = Status;
 }
