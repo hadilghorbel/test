@@ -1,0 +1,148 @@
+{
+	"data": [
+		{
+			"id": "1000",
+			"code": "f230fh0g3",
+			"name": "La Badira",
+			"description": "Tous compris",
+			"image": "badira.jpg",
+			"price": 65,
+			"category": "Complexe touristique",
+			"quantity": 24,
+			"inventoryStatus": "AVAILABLE",
+			"rating": 5
+		},
+		{
+			"id": "1001",
+			"code": "nvklal433",
+			"name": "Movenpick Sousse",
+			"description": "Resort & Marine Spa",
+			"image": "movenpick.jpg",
+			"price": 72,
+			"category": "Complexe touristique",
+			"quantity": 61,
+			"inventoryStatus": "BOOKED",
+			"rating": 4
+		},
+		{
+			"id": "1002",
+			"code": "zz21cz3c1",
+			"name": "Four Seasons Hotel Tunis",
+			"description": "Petit déjeuner inclus",
+			"image": "fourSeason.jpg",
+			"price": 79,
+			"category": "Complexe touristique",
+			"quantity": 2,
+			"inventoryStatus": "BOOKED",
+			"rating": 5
+		},
+		{
+			"id": "1003",
+			"code": "244wgerg2",
+			"name": "Hôtel Plaza Corniche",
+			"description": "Petit déjeuner inclus",
+			"image": "plaza.jpg",
+			"price": 29,
+			"category": "Petit hôtel",
+			"quantity": 25,
+			"inventoryStatus": "AVAILABLE",
+			"rating": 3
+		},
+		{
+			"id": "1004",
+			"code": "h456wer53",
+			"name": "Hôtel Thabraca",
+			"description": "Tous compris",
+			"image": "tbarka.jpg",
+			"price": 15,
+			"category": "Complexe touristique",
+			"quantity": 73,
+			"inventoryStatus": "AVAILABLE",
+			"rating": 4
+		},
+		{
+			"id": "1005",
+			"code": "av2231fwg",
+			"name": "La Cigale Tabarka",
+			"description": "Thalasso Spa & Golf",
+			"image": "cigale.jpg",
+			"price": 120,
+			"category": "Complexe touristique",
+			"quantity": 0,
+			"inventoryStatus": "BOOKED",
+			"rating": 4
+		},
+		{
+			"id": "1006",
+			"code": "bib36pfvm",
+			"name": "Hôtel Albatros",
+			"description": "Tous compris",
+			"image": "albatros.jpg",
+			"price": 32,
+			"category": "Complexe touristique",
+			"quantity": 5,
+			"inventoryStatus": "BOOKED",
+			"rating": 3
+		},
+		{
+			"id": "1007",
+			"code": "mbvjkgip5",
+			"name": "Hôtel Jasmina",
+			"description": "Thalassa And Spa",
+			"image": "jasmina.webp",
+			"price": 34,
+			"category": "Petit hôtel",
+			"quantity": 23,
+			"inventoryStatus": "AVAILABLE",
+			"rating": 3
+		},
+		{
+			"id": "1008",
+			"code": "vbb124btr",
+			"name": "Hôtel Oceana Hammamet",
+			"description": "Petit déjeuner inclus",
+			"image": "oceana.jpg",
+			"price": 99,
+			"category": "Complexe touristique",
+			"quantity": 2,
+			"inventoryStatus": "BOOKED",
+			"rating": 4
+		},
+		{
+			"id": "1009",
+			"code": "cm230f032",
+			"name": "Radisson Blu Palace Djerba",
+			"description": "Resort & Thalasso",
+			"image": "rad.jpg",
+			"price": 299,
+			"category": "Complexe touristique",
+			"quantity": 63,
+			"inventoryStatus": "AVAILABLE",
+			"rating": 4
+		},
+		{
+			"id": "1010",
+			"code": "plb34234v",
+			"name": "Hilton Skanes Monastir",
+			"description": "Beach Resort",
+			"image": "hilton.jpg",
+			"price": 24,
+			"category": "Complexe touristique",
+			"quantity": 0,
+			"inventoryStatus": "BOOKED",
+			"rating": 5
+		},
+		{
+			"id": "1011",
+			"code": "4920nnc2d",
+			"name": "Sousse Pearl Marriott",
+			"description": "Resort & Spa",
+			"image": "pearl.jpg",
+			"price": 89,
+			"category": "Complexe touristique",
+			"quantity": 23,
+			"inventoryStatus": "AVAILABLE",
+			"rating": 4
+		}
+	]
+}
